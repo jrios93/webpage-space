@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-img {
+  background-image: url('./assets/home/background-home-desktop.jpg');
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
