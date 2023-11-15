@@ -8,8 +8,8 @@ export default {
         background: '#0b0d17',
       },
       fontFamily: {
-        
         bellefair: ['Bellefair', 'serif'],
+        barlow: ['Barlow Condensed', 'sans-serif'],
       },
     },
   },
