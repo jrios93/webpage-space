@@ -1,12 +1,12 @@
 const Nav = () => {
   return (
-    <nav className=" flex flex-col lg:flex-row lg:items-center justify-between">
+    <nav className=" flex lg:flex-row items-center justify-between lg:py-12">
       <div className="lg:ml-8 px-12">
         <img src="/assets/shared/logo.svg" alt="Logo" />
       </div>
-      <div className="lg:block md:hidden sm:hidden xs:hidden flex absolute w-2/6 right-1/3  transform -translate-x-1/2 -translate-y-1/2 h-[1px] bg-gray-500  z-20"></div>
-      <div className="backdrop-blur-3xl bg-transparent py-8 lg:px-72  relative z-10">
-        <ul className="flex flex-col lg:flex-row lg:justify-start lg:items-start lg:gap-14 uppercase text-lg space-x-2 px-12 lg:tracking-widest ">
+      <div className="  xl:block lg:hidden sm:hidden  absolute lg:w-2/6 lg:right-1/3 transform -translate-x-1/2 -translate-y-1/2 h-[1px] bg-gray-500  z-20"></div>
+      <div className="relative backdrop-blur-3xl bg-transparent py-8 lg:px-72 lg:z-10">
+        <ul className="flex md:gap-4 lg:flex-row lg:justify-start lg:items-start lg:gap-14 uppercase text-lg space-x-2 px-12 lg:tracking-widest ">
           <li className="flex gap-2 cursor-pointer relative group">
             <strong>00</strong>
             <span>Home</span>

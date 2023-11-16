@@ -4,9 +4,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.background-img {
-  background-image: url('/assets/home/background-home-desktop.jpg');
-  background-position: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}

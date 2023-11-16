@@ -11,6 +11,11 @@ export default {
         bellefair: ['Bellefair', 'serif'],
         barlow: ['Barlow Condensed', 'sans-serif'],
       },
+      backgroundImage: {
+        'default-img': "url('/assets/home/background-home-desktop.jpg')",
+
+        'medium': "url('/assets/home/background-home-tablet.jpg')",
+      },
     },
   },
   plugins: [],
