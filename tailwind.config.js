@@ -14,7 +14,8 @@ export default {
       backgroundImage: {
         'default-img': "url('/assets/home/background-home-desktop.jpg')",
 
-        'medium': "url('/assets/home/background-home-tablet.jpg')",
+        medium: "url('/assets/home/background-home-tablet.jpg')",
+        mobile: "url('/assets/home/background-home-mobile.jpg')",
       },
     },
   },
