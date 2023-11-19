@@ -16,6 +16,8 @@ export default {
 
         medium: "url('/assets/home/background-home-tablet.jpg')",
         mobile: "url('/assets/home/background-home-mobile.jpg')",
+        destination:
+          "url('/assets/destination/background-destination-desktop.jpg')",
       },
     },
   },
