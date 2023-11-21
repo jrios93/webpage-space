@@ -19,7 +19,7 @@ const Nav = () => {
         <div className="hidden lg:flex md:flex md:gap-4 lg:flex-row lg:justify-start lg:items-start lg:gap-14 uppercase text-lg space-x-2 px-12 lg:tracking-widest ">
           <NavLink
             to="/"
-            className="flex gap-2 cursor-pointer  relative group "
+            className="flex gap-2 cursor-pointer  relative group transform 300ms ease-in-out  "
             activeClassName="active"
           >
             <strong>00</strong>

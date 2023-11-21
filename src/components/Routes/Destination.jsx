@@ -8,11 +8,11 @@ import Titan from '../subRoutes/Titan'
 const Destination = () => {
   return (
     <div className=" flex flex-col  justify-between px-12 gap-2">
-      <div className="text-3xl tracking-widest flex gap-6 items-center px-40 -mt-16 mb-12 ">
+      <div className="text-3xl tracking-widest flex gap-6 items-center lg:px-40 -mt-16 mb-12 ">
         <strong>01</strong>
         <span>PICK YOUR DESTINATION</span>
       </div>
-      <div className=" flex justify-center items-center ml-[37rem] ">
+      <div className=" flex justify-center items-center lg:ml-[37rem]">
         <SubNav />
       </div>
 
